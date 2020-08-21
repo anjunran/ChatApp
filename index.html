@@ -60,7 +60,7 @@
 
 
 
-<div class="data" style="background-color: aquamarine; width: 100%; height: 10rem;"></div>
+<div id="data" style="background-color: aquamarine; width: 100%; height: 10rem;"></div>
   </body>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -114,7 +114,7 @@
         //console.log(JSON.stringify(snap.val()));
         var a = JSON.stringify(snap.val());
         //console.log(a);
-
+        printArea.innerHTML += a + "<br>";
         });
       
 
