@@ -116,3 +116,17 @@ background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #
   height: 1.5em;
   border-radius: 100%;
 }
+span {
+padding: 0 0.5rem 0 0.5rem;
+margin: 0;
+box-sizing: border-box;
+height:auto;
+max-width: 100%;
+line-height: 7;
+font-size: 0.6rem;
+text-rendering: geometricPrecision;
+font-style: italic;
+letter-spacing: 1px;
+color: grey;
+word-wrap: break-word;
+}
